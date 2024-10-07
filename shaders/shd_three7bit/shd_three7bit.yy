@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_three7bit",
+  "name":"shd_three7bit",
+  "parent":{
+    "name":"EncodeDecode_SixValues7bit",
+    "path":"EncodeDecode_SixValues7bit.yyp",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}
