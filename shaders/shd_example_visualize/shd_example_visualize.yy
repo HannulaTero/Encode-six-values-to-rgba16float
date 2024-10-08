@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shd_example_visualize",
+  "name":"shd_example_visualize",
+  "parent":{
+    "name":"Example",
+    "path":"folders/Example.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

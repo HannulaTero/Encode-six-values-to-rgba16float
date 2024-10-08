@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"EncodeDecode_SixValues7bit",
-    "path":"EncodeDecode_SixValues7bit.yyp",
+    "name":"Example",
+    "path":"folders/Example.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

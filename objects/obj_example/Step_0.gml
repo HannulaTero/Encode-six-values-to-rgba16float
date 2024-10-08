@@ -1,26 +1,29 @@
+/// @desc CHANGE VALUES.
 
 
 if (device_mouse_check_button(0, mb_left))
 {
-  array_map_ext(arrOriginals, function()
+  dirtyCache = true;
+  array_map_ext(arrValues, function()
   {
-    return irandom(127);
+    return irandom(current.maxValue);
   });
 }
 
 
 
-if (device_mouse_check_button(1, mb_left))
-|| (device_mouse_check_button(0, mb_right))
+if (device_mouse_check_button(0, mb_right))
+|| (device_mouse_check_button(1, mb_left)) 
 {
-  step += 1/8;
-  if (step >= 128.0)
+  current.step += current.speed;
+  if (current.step > current.maxValue)
   {
-    step = 0.0;
+    current.step = 0.0;
   }
 
-  array_map_ext(arrOriginals, function()
+  dirtyCache = true;
+  array_map_ext(arrValues, function()
   {
-    return floor(step);
+    return floor(current.step);
   });
 }
